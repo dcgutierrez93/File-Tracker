@@ -17,3 +17,7 @@ body {
 .item--1 {
 
 }
+
+form.login-form {
+    display: block;
+}
