@@ -5,10 +5,10 @@ body {
 }
 
 .form-wrapper {
-    padding: 20px;
+    padding: 20px 60px;
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    width: 60%;
+    transform: translate(-50%, -30%);
+    border: 1px solid grey;
 }

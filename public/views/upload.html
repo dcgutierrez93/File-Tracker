@@ -24,10 +24,10 @@
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Dashboard <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="/">Dashboard</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Upload Files</a>
+                            <a class="nav-link" href="/upload-files">Upload Files <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Tab Three</a>
@@ -43,10 +43,12 @@
 
     </header>
     <div class="container">
-        <form id="frmUploader" enctype="multipart/form-data" action="api/Upload/" method="post">
-            <input type="file" name="imgUploader" multiple />
-            <input type="submit" name="submit" id="btnSubmit" value="Upload" />
-        </form>
+        <div class="form-wrapper">
+            <form id="frmUploader" enctype="multipart/form-data" action="api/Upload/" method="post">
+                <input type="file" name="imgUploader" multiple /><br><br>
+                <input type="submit" name="submit" id="btnSubmit" value="Upload" />
+            </form>
+        </div>
     </div>
 
 
